@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+}
+.nav{
+    background-color: white;
+    background-image: linear-gradient(to top right, white,lightblue, #89CFF0,cyan,royalblue);
+    position: fixed;
+    z-index: 9000;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px;
+    height: 120px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.nav_side{
+    float: right;
+    width: 40%;
+    margin-top: 30px;
+    justify-content: right;
+    align-content: right;
+    align-items: right;
+    text-align: right;
+}
+.nav_side a{
+    margin-right: 20px;
+    padding: top 20px;
+    margin-top: 20px;
+    justify-content: right;
+    align-content: right;
+    align-items: right;
+    text-align: right;
+}
+.nav_side a:hover{
+    color: pink;
+    opacity: 0.4;
+}
+.logo{
+    float: left;
+    width: 60%;
+}
+.logoa{
+    font-size: 70px;
+    font-weight: bold;
+    color: indigo;
+    text-shadow: 1px 1px 4px black;
+    margin: 2px;   
+}
+.logor{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 25px;
+}
+.sidebar_button{
+    font-size: 70px;
+    font-weight: bold;
+    color: indigo;
+    margin-top: 5px;
+}
+.sidebar_button:hover{
+    opacity: 0.4;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+  overflow: hidden;
+}
+
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.products{
+    
+    width: 100%;
+    padding-bottom: 50px;
+    margin-top: 5px;
+}
+.products h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.products .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.products .product_container .item{
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.products .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+}
+.products .product_container .item .item_img{
+    width: 100%;
+    margin: 2%;
+    height: 250px;
+    overflow: hidden;
+}
+.products .product_container .item .item_img img{
+    width: 95%;
+    height: 250px;
+}
+.products .product_container .item .item_content{
+    text-align: center;
+    font-family: sans-serif;
+}
+.products .product_container .item .item_content h3{
+    font-size: 25px;
+    padding: 5px;
+}
+.products .product_container .item .item_content p{
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.products .product_container .item .item_content a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    border: 2px solid white;
+    background-color: indigo;
+    color: wheat;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.products .product_container .item .item_content a:hover{
+    background-color: #89CFF0;
+    background-image: linear-gradient(to top right, white,lightblue, #89CFF0,cyan,royalblue);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-bottom: 4px solid black;
+    transition: 0.5s ease;
+}
+.products .product_btn{
+    text-align: center;
+    margin: 20px;
+}
+.products .product_btn a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    border: 2px solid white;
+    background-color: indigo;
+    color: wheat;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.products .product_btn a:hover{
+    background-color: #89CFF0;
+    background-image: linear-gradient(to top right, white,lightblue, #89CFF0,cyan,royalblue);
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-bottom: 4px solid black;
+    transition: 0.5s ease;
+}
+.keypoints{
+    padding: 50px;
+    margin: 10px;
+}
+.keypoints h2{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 10px;
+    text-shadow: 5px 1.5px 3px grey;
+}
+.keypoints .key_container{
+    display: flex;
+}
+.keypoints .key_container .key_content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.keypoints .key_container .key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    text-align: left;
+    border-left: 2px solid indianred;
+    font-family: sans-serif;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+}
+.keypoints .key_container .key_img{
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+}
+.keypoints .key_container .key_img img{
+    width: 100%;
+}
+footer{
+    background-color:#99A3A4;
+    padding: 50px;
+}
+footer .footerlogo{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+footer .pages{
+    text-align: center;
+
+}
+footer .pages h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color: violet;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+footer .pages a:hover{
+    color: indigo;
+}
+footer .doc{
+    text-align: center;
+
+}
+footer .doc h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    margin: 10px;
+    color: violet;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+footer .doc a:hover{
+    color: indigo;
+}
+footer .social{
+    text-align: center;
+
+}
+footer .social h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+footer .social a{
+    margin: 10px;
+    text-decoration: none;
+}
+footer .social a:hover{
+    opacity: 0.4;
+}
+footer .contact{
+    text-align: center;
+
+}
+footer .contact h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+footer .contact a{
+    margin: 10px;
+    text-decoration: none;
+}
+footer .contact a:hover{
+    opacity: 0.4;
+}
