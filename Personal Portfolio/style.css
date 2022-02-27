@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ADD8E6;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box{
+        width: 90%;
+        height: 650px;
+        top: 4.8px;
+        left:7px;
+        margin: 70px;
+        position: absolute;
+        display: flex;
+        color: black;
+        border: 2px solid turquoise;
+        background-image: url('BG2.jpg');    
+}
+.content{
+    width: 40%;
+    height: 100%;
+    overflow-x: visible;
+}
+.content .logo{
+    margin-top: 10px;
+    margin-left: 60px;
+    color: white;
+}
+.content .logo span{
+    color: royalblue;
+}
+.content .main .hello{
+    padding: 0px;
+    margin-bottom: 0px;
+    color: royalblue;
+    margin-top: 24%;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.content .main .name{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 60px;
+    font-size: 120px;
+    color: white;
+    overflow-x: visible;
+}
+.content .main .name span{
+    color: royalblue;
+}
+.content .main .job{
+    margin-top: 5px;
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;
+}
+.content .main .loc{
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 20px;
+}
+.content .main a{
+    margin-top: 15px;
+    margin-left: 60px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 44px;
+
+}
+.content .main a:hover{
+    color: #000080;
+    font-weight: bolder;
+    border: 2px solid turquoise;
+    text-shadow:1px 1px 2px white ;
+}
+.content .foot{
+    margin-top: 14%;
+    margin-left: 60px;
+}
+.content .foot a{
+    padding: 8px;
+}
+.content .foot a:hover{
+    opacity: 0.6;
+    filter: invert(100%);
+    
+}
+.container{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.container .img{
+    padding: 0px 0px;
+    width: 100%;
+    height: 78%;
+    align-items: center;
+    overflow: hidden;
+}
+.container .img img{
+    width: 100%;
+    height: 100%;
+    filter:brightness(110%);
+}
+.container .about{
+    padding: 7px;
+    font-size: 15px;
+    color: black;
+}
+.container .about .info{
+    padding: 1px;
+}
+.container .about .info2{
+    padding-bottom: 5px;
+    margin-bottom: 6px;
+}
+.container .about .info span{
+    color: royalblue;
+    font-weight: bolder;
+}
+.container .about a{
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: #151E3D;
+    padding: 5px 10px;
+}
+.container .about a:hover{
+    background-color: white;
+    color: royalblue;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px black;
+    border: none;
+    border-bottom: 2px solid turquoise;
+    border-right: 2px solid turquoise;
+}
+.nav{
+    width: 10%;
+    height: 100%;
+    background-color: #151E3D;
+    text-align: center;
+}
+.nav .navbar{
+    width: 100%;
+    height: 450px;
+    margin-top: 90px;
+}
+.nav .navbar div{
+    padding: 35px;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+}
+.nav .navbar a{
+    text-decoration: none;
+    color: white;
+}
+.nav .navbar a:hover{
+    color: turquoise;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
+.nav .navbar .active{
+    color: turquoise;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+}
